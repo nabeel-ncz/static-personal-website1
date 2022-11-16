@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*header starts here*/
+.header-container{
+    width: 100%;
+    background-color: rgb(239, 223, 253);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+}
+.about-image-logo{
+    width: 86px;
+    height: 54px;
+}
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: rgba(105, 45, 165, 0.927);
+  }
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    color: rgb(85, 22, 144);
+}
+.navbar-expand-lg .navbar-nav .nav-item {
+    padding-right: 2.5rem;
+    padding-left: .5rem;
+  }
+
+  
+.about-first-button{
+    
+    font-size: small;
+    color: #fff;
+    width: 108px;
+    height: 36px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(134, 68, 201);
+}
+.about-first-button:hover{
+    background-color: rgb(105, 45, 165);
+}
+
+/**************************header ends here*****************************/
+
+/**********************first section *************************/
+.home-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(144, 89, 199, 0.841);
+    padding-top: 12%;
+    padding-left: 10%;
+    line-height: 40px;
+    
+}
+.font-hello-name{
+    color: rgba(255, 255, 255, 0.841);
+    font-family: 'poppins' sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    letter-spacing: .4rem;
+
+}
+.font-full-name{
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+}
+.home-container p{
+    color: rgba(0, 0, 0, 0.737);
+}
+.home-container button{
+    font-size: small;
+    width: 140px;
+    padding: 2px 8px;
+    border-radius: 21px;
+    border: none;
+    background-color: rgb(134, 68, 201);
+    color: #fff;   
+}
+.home-container button:hover{
+    background-color: rgb(105, 45, 165);
+}
+.home-container img{
+    display: block;
+    width: 250px;
+    
+    margin-left: 140px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+/*****************************first section *****************/
+/******************second section **********************/
+.about-container{
+    width: 100%;
+    background-color: rgba(208, 166, 254, 0.841);
+    padding-top: 6%;
+    padding-left: 10%;
+    line-height: 40px;
+    letter-spacing: .08rem;   
+}
+.about-container ul{
+    padding-bottom: 60px;
+    padding-top: 40px;
+    list-style: none;
+    
+}
+
+
+.about-container ul li i{
+    font-size: 60px;
+    font-weight: lighter;
+    color: rgb(121, 54, 183);
+    margin-left: 4%;  
+    padding-bottom: 50px; 
+}
+.about-container ul li h5{
+    font-weight: 200;
+    float: right;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+
+/******************second section **********************/
+
+/******************Third section **********************/
+.skills-container{
+    align-items: center;
+    width: 100%;
+    background-color: rgba(213, 176, 252, 0.841);
+    padding: 60px 0px;
+    padding-left: 10%;
+    line-height: 30px;
+    letter-spacing: .08rem;
+
+}
+.skills-container .card{
+    align-items: center;
+    margin-top:30px ;
+    border-radius: 16px;
+    border: none;
+    background-color: rgba(176, 134, 219, 0.953);
+    transition: 1s ease;
+}
+.skills-container .card:hover{
+    background-color: rgba(86, 32, 116, 0.953);
+}
+.skills-container .card img{
+    padding: 30px 20px;
+    width: 120px;
+    height: 140px;
+}
+.skills-container .card h5{
+    color: rgb(255, 255, 255);
+}
+.skills-container .card p{
+    color:rgba(255, 255, 255, 0.615) ;
+}
+.skills-heading{
+    margin-left: 40%;
+}
+
+/*==============foooter================*/
+.footer-container{
+    width: 100%;
+    align-items: center;
+    font-size: small;
+    padding: 6px 42%;
+    background-color: rgba(222, 205, 226, 0.851);
+    
+}
